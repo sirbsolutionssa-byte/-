@@ -12,7 +12,7 @@
 
 <style>
 
-* {
+•⁠  ⁠{
 
   box-sizing: border-box;
 
@@ -44,17 +44,17 @@ body {
 
   max-width: 390px;
 
-  background: white;
+  background: #FFFFFF;
 
   color: #30304A;
 
-  padding: 30px 25px;
+  padding: 35px 25px;
 
-  border-radius: 24px;
+  border-radius: 26px;
 
   text-align: center;
 
-  box-shadow: 0 15px 40px #3C53A422;
+  box-shadow: 0 15px 40px rgba(60,83,164,.13);
 
   border-top: 7px solid #3C53A4;
 
@@ -62,15 +62,15 @@ body {
 
 .logo {
 
-  width: 145px;
+  width: 155px;
 
-  height: 105px;
+  height: 110px;
 
   object-fit: contain;
 
   display: block;
 
-  margin: 0 auto 12px;
+  margin: 0 auto 15px;
 
 }
 
@@ -78,11 +78,13 @@ body {
 
   color: #7652A1;
 
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 
-  font-size: 12px;
+  font-size: 13px;
 
   font-weight: bold;
+
+  margin-top: 5px;
 
 }
 
@@ -92,15 +94,15 @@ body {
 
   background: #E5E1EE;
 
-  margin: 25px 0;
+  margin: 28px 0;
 
 }
 
 h2 {
 
-  font-size: 24px;
+  font-size: 25px;
 
-  margin: 10px;
+  margin: 12px 0;
 
   color: #3C53A4;
 
@@ -108,21 +110,17 @@ h2 {
 
 }
 
-p {
+.role {
 
   color: #7652A1;
 
-  line-height: 1.8;
+  font-size: 16px;
+
+  margin: 10px 0;
 
 }
 
-.role {
-
-  font-size: 15px;
-
-}
-
-a {
+.actions a {
 
   display: block;
 
@@ -130,21 +128,31 @@ a {
 
   color: white;
 
-  padding: 15px;
+  padding: 16px;
 
-  margin: 12px 0;
+  margin: 13px 0;
 
-  border-radius: 12px;
+  border-radius: 13px;
 
   text-decoration: none;
 
   font-weight: bold;
 
+  font-size: 16px;
+
+  transition: opacity .2s;
+
 }
 
-a:nth-of-type(even) {
+.actions a:nth-child(even) {
 
   background: #7652A1;
+
+}
+
+.actions a:hover {
+
+  opacity: .85;
 
 }
 
@@ -154,7 +162,7 @@ a:nth-of-type(even) {
 
   color: #7652A1;
 
-  margin-top: 25px;
+  margin-top: 30px;
 
   letter-spacing: 2px;
 
@@ -168,31 +176,93 @@ a:nth-of-type(even) {
 
 <div class="card">
 
-<img src="logo.png" class="logo" alt="SIRB Logo">
+  <!-- Company Logo -->
 
-<div class="eng">EXPERIENCE SOLUTIONS</div>
+  <img
 
-<div class="line"></div>
+    src="logo.png"
 
-<h2>Munirah Alhaddad</h2>
+    class="logo"
 
-<p class="role">CEO</p>
+    alt="SIRB Logo"
 
-<div class="line"></div>
+  >
 
-<a href="#">WhatsApp</a>
+  <!-- Company Name -->
 
-<a href="#">Email</a>
+  <div class="eng">
 
-<a href="#">instagram</a>
+    EXPERIENCE SOLUTIONS
 
-<a href="#">انضم كمنظم</a>
+  </div>
 
-<div class="footer">
+  <div class="line"></div>
 
-SIRB EXPERIENCE SOLUTIONS
+  <!-- Employee Information -->
 
-</div>
+  <h2>Munirah Alhaddad</h2>
+
+  <p class="role">CEO</p>
+
+  <div class="line"></div>
+
+  <!-- Contact Links -->
+
+  <div class="actions">
+
+    <a
+
+      href="https://wa.me/966579336122"
+
+      target="_blank"
+
+      rel="noopener noreferrer">
+
+      WhatsApp
+
+    </a>
+
+    <a
+
+      href="mailto:sirbsolutions.sa@gmail.com">
+
+      Email
+
+    </a>
+
+    <a
+
+      href="https://www.instagram.com/sirbsolutions.sa/"
+
+      target="_blank"
+
+      rel="noopener noreferrer">
+
+      Instagram
+
+    </a>
+
+    <a
+
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfx7Ex_D-xuzPO9o_MmiqdiBfRu79WCxU3lVmap6OoUQFCO4A/viewform?usp=header"
+
+      target="_blank"
+
+      rel="noopener noreferrer">
+
+      انضم كمنظم
+
+    </a>
+
+  </div>
+
+  <!-- Footer -->
+
+  <div class="footer">
+
+    SIRB EXPERIENCE SOLUTIONS
+
+  </div>
 
 </div>
 
